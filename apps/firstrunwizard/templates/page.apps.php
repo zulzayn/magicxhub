@@ -30,17 +30,17 @@
 <div class="page" data-title="<?php p($l->t('Extend your cloud')); ?>" data-subtitle="">
 	<div class="image"><img src="<?php p(image_path('firstrunwizard', 'appstore.svg')); ?>" /></div>
 	<div class="description">
-		<p><?php p($l->t('Find more than 100 apps in the Nextcloud App Store to customize your cloud:')); ?></p>
+		<p><?php p($l->t('Find more than 100 apps in the App Store to customize your cloud:')); ?></p>
 		<ul>
 			<li><?php p($l->t('Groupware apps like Calendar, Contacts, Mail')); ?></li>
-			<li><?php p($l->t('Communication with Nextcloud Talk')); ?></li>
+			<li><?php p($l->t('Communication with Talk')); ?></li>
 			<li><?php p($l->t('Collaboration apps for document editing')); ?></li>
 			<li><?php p($l->t('Security and authentication features like two-factor authentication, SSO and ransomware protection')); ?></li>
 			<li><?php p($l->t('Many others like a music player, a password manager, a kanban app, a download manager or a Markdown editor')); ?></li>
 
 		</ul>
 		<p class="details-link">
-			<a href="<?php p(\OC::$server->getURLGenerator()->linkToRoute('settings.AppSettings.viewApps')); ?>" target="_blank" rel="noreferrer noopener">
+			<a href="<?php p(\OC::$server->getURLGenerator()->linkToRoute('settings.AppSettings.viewApps')); ?>" rel="noreferrer noopener">
 				<?php p($l->t('Browse the App Store')); ?>
 			</a>
 		</p>
