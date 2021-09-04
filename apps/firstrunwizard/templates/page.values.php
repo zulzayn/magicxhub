@@ -30,7 +30,7 @@
 
 <div class="page" data-title="<?php p($l->t('A safe home for all your data')); ?>" data-subtitle="">
 <?php
-$companyname = array($theme->getName());
+$companyname = $theme->getName();
 ?>
 	<div class="content content-values">
 		<p>
