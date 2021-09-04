@@ -33,35 +33,42 @@
 		<p>
 			<?php p($l->t('Introducing MaGICXHub, the central hub of your digital life. 
 			MaGICXHub puts your data at your fingertips, under your control. 
+			All built from the ground up.
+			Everything you need to get anything done, now in one place.
+
 			Share and collaborate on documents, 
 			send and receive email, manage your contacts and calendar, 
 			have chats and video chats without data leaks, 
 			make an online conference with your worker,
 			make a virtual classroom for lecturing. 
-			All built from the ground up.
-			Everything you need to get anything done, now in one place.')); ?>
+			')); ?>
 		</p>
 
 		<ul id="wizard-values">
 			<li>
 				<span class="icon-folder"></span>
-				<p><?php p($l->t('File Access and sync platform with powerful collaboration capabilities within devices.')); ?></p>
+				<div style="text-align:center;font-weight:bold"><small>Files, Photos, Music</small></div>
+				<p style="text-align:center"><?php p($l->t('File Access and sync platform with powerful collaboration capabilities within devices.')); ?></p>
 			</li>
 			<li>
 				<span class="icon-category-dashboard"></span>
-				<p><?php p($l->t('Talk, private audio/video messaging and text chat.')); ?></p>
+				<div style="text-align:center;font-weight:bold"><small>Talk</small></div>
+				<p style="text-align:center"><?php p($l->t('Talk, private audio/video messaging and text chat.')); ?></p>
+			</li>
+			<li>
+				<span class="icon-category-workflow"></span>
+				<div style="text-align:center;font-weight:bold"><small>Mail, Contact, Calendar</small></div>
+				<p style="text-align:center"><?php p($l->t('Get integrates with Calendar, Contacts, Mail and other productivity features.')); ?></p>
 			</li>
 			<li>
 				<span class="icon-category-social"></span>
-				<p><?php p($l->t('Get integrates with Calendar, Contacts, Mail and other productivity features.')); ?></p>
-			</li>
-			<li>
-				<span class="icon-menu-sidebar-white"></span>
-				<p><?php p($l->t('Collaborative platform in virtual workspace.')); ?></p>
+				<div style="text-align:center;font-weight:bold"><small>Deck, Task, Form</small></div>
+				<p style="text-align:center"><?php p($l->t('Collaborative platform in virtual workspace.')); ?></p>
 			</li>
 			<li>
 				<span class="icon-desktop"></span>
-				<p><?php p($l->t('Virtual conference combination of business and education purpose.')); ?></p>
+				<div style="text-align:center;font-weight:bold"><small>Conference, Classroom</small></div>
+				<p style="text-align:center"><?php p($l->t('Virtual conference combination of business and education purpose.')); ?></p>
 			</li>
 		</ul>
 
