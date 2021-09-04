@@ -44,24 +44,24 @@
 
 		<ul id="wizard-values">
 			<li>
-				<span class="icon-files"></span>
-				<p><?php p($l->t('Files offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities within devices.')); ?></p>
+				<span class="icon-folder"></span>
+				<p><?php p($l->t('File Access and sync platform with powerful collaboration capabilities within devices.')); ?></p>
 			</li>
 			<li>
 				<span class="icon-category-dashboard"></span>
-				<p><?php p($l->t('Talk delivers on-premises, private audio/video conferencing and text chat through browser and mobile interfaces with integrated screen sharing and SIP integration.')); ?></p>
+				<p><?php p($l->t('Talk, private audio/video messaging and text chat.')); ?></p>
 			</li>
 			<li>
 				<span class="icon-category-social"></span>
-				<p><?php p($l->t('Groupware integrates Calendar, Contacts, Mail and other productivity features to help teams get their work done faster, easier and on your terms.')); ?></p>
+				<p><?php p($l->t('Get integrates with Calendar, Contacts, Mail and other productivity features.')); ?></p>
 			</li>
 			<li>
-				<span class="icon-stackexchange"></span>
-				<p><?php p($l->t('Collaborative platform in virtual workspace to facilitating communication and personal interaction in any project work.')); ?></p>
+				<span class="icon-menu-sidebar-white"></span>
+				<p><?php p($l->t('Collaborative platform in virtual workspace.')); ?></p>
 			</li>
 			<li>
 				<span class="icon-desktop"></span>
-				<p><?php p($l->t('Combine business and education virtual conference into a single platform. Experience secure, productive conference from wherever you are. Lecture from any part of the world using classroom features.')); ?></p>
+				<p><?php p($l->t('Virtual conference combination of business and education purpose.')); ?></p>
 			</li>
 		</ul>
 
