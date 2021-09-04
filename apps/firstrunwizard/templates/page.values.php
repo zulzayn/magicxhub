@@ -31,11 +31,11 @@
 <div class="page" data-title="<?php p($l->t('A safe home for all your data')); ?>" data-subtitle="">
 	<div class="content content-values">
 		<p>
-			<?php p($l->t('Introducing MaGICXHub, the central hub of your digital life. 
-			MaGICXHub puts your data at your fingertips, under your control. 
+			<?php p($l->t('Introducing %s, the central hub of your digital life. 
+			%s puts your data at your fingertips, under your control. 
 			All built from the ground up.
 			Everything you need to get anything done, now in one place.
-			')); ?>
+			' , array($theme->getName()))); ?>
 		</p>
 
 		<ul id="wizard-values">
@@ -68,7 +68,7 @@
 
 		<p class="details-link"><a href="<?php p($theme->getBaseUrl()); ?>" target="_blank" rel="noreferrer noopener"><?php p($l->t('Learn more about %s', $theme->getName())); ?></a></p>
 		<div style="text-align: center; color: var(--text-maxcontrast);">
-			<p><?php p($l->t('This MaGICXHub is on version %s', [ \OC_Util::getVersionString() ])); ?></p>
+			<p><?php p($l->t('This '.array($theme->getName()).' is on version %s', [ \OC_Util::getVersionString() ])); ?></p>
 		</div>
 	</div>
 </div>
