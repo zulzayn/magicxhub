@@ -35,18 +35,12 @@
 			MaGICXHub puts your data at your fingertips, under your control. 
 			All built from the ground up.
 			Everything you need to get anything done, now in one place.
-
-			Share and collaborate on documents, 
-			send and receive email, manage your contacts and calendar, 
-			have chats and video chats without data leaks, 
-			make an online conference with your worker,
-			make a virtual classroom for lecturing. 
 			')); ?>
 		</p>
 
 		<ul id="wizard-values">
 			<li>
-				<span class="icon-folder"></span>
+				<span class="icon-projects"></span>
 				<div style="text-align:center;font-weight:bold"><small>Files, Photos, Music</small></div>
 				<p style="text-align:center"><?php p($l->t('File Access and sync platform with powerful collaboration capabilities within devices.')); ?></p>
 			</li>
