@@ -4,7 +4,7 @@
 <div id="app-navigation">
 	<ul>
 		<li>
-			<a class="icon-user <?php if ($_['mode'] === 'user') {
+			<a style="padding: 0 12px 0 40px;" class="icon-user <?php if ($_['mode'] === 'user') {
 	p('active');
 } ?>"
 				href="<?php print_unescaped($_['urlUserDocs']); ?>">
@@ -13,7 +13,7 @@
 		</li>
 	<?php if ($_['admin']) { ?>
 		<li>
-			<a class="icon-user-admin <?php if ($_['mode'] === 'admin') {
+			<a style="padding: 0 12px 0 40px;" class="icon-user-admin <?php if ($_['mode'] === 'admin') {
 	p('active');
 } ?>"
 				href="<?php print_unescaped($_['urlAdminDocs']); ?>">
@@ -23,12 +23,12 @@
 	<?php } ?>
 
 		<li>
-			<a href="https://docs.nextcloud.com" class="icon-category-office" target="_blank" rel="noreferrer noopener">
+			<a style="padding: 0 12px 0 40px;" href="https://docs.nextcloud.com" class="icon-category-office" target="_blank" rel="noreferrer noopener">
 				<?php p($l->t('Documentation')); ?> ↗
 			</a>
 		</li>
 		<li>
-			<a href="https://help.nextcloud.com" class="icon-comment" target="_blank" rel="noreferrer noopener">
+			<a style="padding: 0 12px 0 40px;" href="https://help.nextcloud.com" class="icon-comment" target="_blank" rel="noreferrer noopener">
 				<?php p($l->t('Forum')); ?> ↗
 			</a>
 		</li>
