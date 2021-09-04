@@ -33,7 +33,7 @@
 $companyname = $theme->getName();
 ?>
 	<div class="content content-values">
-		<p>
+		<p style="text-align:center">
 			<?php p($l->t('Introducing '.$companyname.', the central hub of your digital life. 
 			'.$companyname.' puts your data at your fingertips, under your control. 
 			All built from the ground up.
